@@ -23,18 +23,19 @@ public class Main {
     private: no se puede acceder desde cualquier paquete
     protected: se puede acceder desde el mismo paquete o solo clases hijas (herencia)
      */
-    public static void holaMundo(String name) {
-        System.out.println("Hola " + name + " desde un método!");
-    }
-
     public static void holaMundo() {
         System.out.println("Hola mundo desde un método!");
+    }
+
+    // sobrecarga de la funcion "holaMundo"
+    // podemos sobrecargar funciones siempre que le agreguemos distintos parametros o cambiemos el tipo de dato
+    public static void holaMundo(String name) {
+        System.out.println("Hola " + name + " desde un método!");
     }
 
     /*
     las funciones pueden devolver un vacio (void) o devolver algun tipo de dato con return
      */
-
     private static int sum(int num1, int num2){
         return num1 + num2;
     }
