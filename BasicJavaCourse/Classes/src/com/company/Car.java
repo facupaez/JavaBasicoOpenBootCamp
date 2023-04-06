@@ -5,13 +5,13 @@ public class Car {
 
     // atributos/propiedades = caracteristicas del objeto
     String color;
-    String fabricante;
-    String marca;
-    int numPuertas;
-    int numRuedas;
-    double peso;
-    double largo;
-    int velocidad = 0;
+    String manufacturer;
+    String brand;
+    int doorsNum;
+    int wheelsNum;
+    double weight;
+    double length;
+    int velocity = 0;
 
     // constructores = nos permite representar objetos de esta clase
     // por defecto se crea un constructor vacio sin valores en los atributos
@@ -19,27 +19,27 @@ public class Car {
     }
 
     // constructor personalizado con todos sus atributos recibidos como argumentos
-    public Car(String color, String fabricante, String marca, int numPuertas, int numRuedas, double peso, double largo) {
+    public Car(String color, String manufacturer, String brand, int doorsNum, int wheelsNum, double weight, double length) {
         this.color = color;
-        this.fabricante = fabricante;
-        this.marca = marca;
-        this.numPuertas = numPuertas;
-        this.numRuedas = numRuedas;
-        this.peso = peso;
-        this.largo = largo;
+        this.manufacturer = manufacturer;
+        this.brand = brand;
+        this.doorsNum = doorsNum;
+        this.wheelsNum = wheelsNum;
+        this.weight = weight;
+        this.length = length;
     }
 
     // constructor personalizado con 2 atributos recibidos como argumentos
-    public Car(String color, String fabricante) {
+    public Car(String color, String manufacturer) {
         this.color = color;
-        this.fabricante = fabricante;
+        this.manufacturer = manufacturer;
     }
 
     // comportamientos del objeto = funciones/metodos
 
-    public void acelerar(int cantidad) {
-        if (cantidad > 0 && cantidad <= 180) {
-            this.velocidad += cantidad;
+    public void speedUp(int amount) {
+        if (amount > 0 && amount <= 180) {
+            this.velocity += amount;
         } else {
             System.out.println("La velocidad debe ser entre 0 y 180");
         }
@@ -51,13 +51,13 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "color='" + color + '\'' +
-                ", fabricante='" + fabricante + '\'' +
-                ", marca='" + marca + '\'' +
-                ", numPuertas=" + numPuertas +
-                ", numRuedas=" + numRuedas +
-                ", peso=" + peso +
-                ", largo=" + largo +
-                ", velocidad=" + velocidad +
+                ", fabricante='" + manufacturer + '\'' +
+                ", marca='" + brand + '\'' +
+                ", numPuertas=" + doorsNum +
+                ", numRuedas=" + wheelsNum +
+                ", peso=" + weight +
+                ", largo=" + length +
+                ", velocidad=" + velocity +
                 '}';
     }
 }
