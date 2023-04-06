@@ -36,6 +36,8 @@ public class CarMain {
         hybridCar.velocity = 80;
         System.out.println(hybridCar);
 
-
+        // creamos objeto con contructor sobrecargado
+        ElectricCar electricCar1 = new ElectricCar("verde", "VW", "Polo", 4, 4, 1520, 2, true);
+        System.out.println(electricCar1);
     }
 }
