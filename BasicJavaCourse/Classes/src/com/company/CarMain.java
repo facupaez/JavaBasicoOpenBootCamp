@@ -38,6 +38,9 @@ public class CarMain {
 
         // creamos objeto con contructor sobrecargado
         ElectricCar electricCar1 = new ElectricCar("verde", "VW", "Polo", 4, 4, 1520, 2, true);
+
+        // utilizamos el metodo speedUp que sobre escribimos en la clase ElectricCar
+        electricCar1.speedUp(50);
         System.out.println(electricCar1);
     }
 }
