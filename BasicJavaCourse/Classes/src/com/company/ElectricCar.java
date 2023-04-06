@@ -5,6 +5,10 @@ public class ElectricCar extends Car {
     // agregamos atributos
     boolean electricEngine;
 
+    // creamos constructor vacio
+    public ElectricCar() {
+    }
+
     // creamos constructor con atributos
     public ElectricCar(boolean electricEngine) {
         this.electricEngine = electricEngine;

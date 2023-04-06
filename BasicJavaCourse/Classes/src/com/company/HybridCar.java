@@ -4,6 +4,11 @@ public class HybridCar extends Car{
 
     boolean hybridEngine;
 
+    // creamos constructor vacio
+    public HybridCar() {
+    }
+
+    // creamos constructor con atributos
     public HybridCar(boolean hybridEngine) {
         this.hybridEngine = hybridEngine;
     }
