@@ -18,7 +18,19 @@ public class Car {
     public Car() { // por defecto
     }
 
-    public Car(String color, String fabricante) { // constructor personalizado con argumentos
+    // constructor personalizado con todos sus atributos recibidos como argumentos
+    public Car(String color, String fabricante, String marca, int numPuertas, int numRuedas, double peso, double largo) {
+        this.color = color;
+        this.fabricante = fabricante;
+        this.marca = marca;
+        this.numPuertas = numPuertas;
+        this.numRuedas = numRuedas;
+        this.peso = peso;
+        this.largo = largo;
+    }
+
+    // constructor personalizado con 2 atributos recibidos como argumentos
+    public Car(String color, String fabricante) {
         this.color = color;
         this.fabricante = fabricante;
     }
