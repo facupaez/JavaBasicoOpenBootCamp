@@ -1,6 +1,10 @@
 package com.company;
 
-public class Car {
+    /*
+    podemos declarar una clase padre com abstracta para poder definir una serie atributos, constructores
+    y metodos pero que solo se puedan instanciar por medio de las clases hijas
+     */
+public abstract class Car {
     // usamos clases para representar objetos de la vida real
 
     // atributos/propiedades = caracteristicas del objeto
