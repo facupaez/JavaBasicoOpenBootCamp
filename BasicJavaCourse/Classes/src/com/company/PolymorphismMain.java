@@ -9,7 +9,7 @@ public class PolymorphismMain {
         */
 
         // instancias normales
-        Car car1 = new Car();
+        // Car car1 = new Car();
         ElectricCar car2 = new ElectricCar();
         HybridCar car3 = new HybridCar();
 
