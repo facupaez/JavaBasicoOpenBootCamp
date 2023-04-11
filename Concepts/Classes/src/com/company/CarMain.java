@@ -6,8 +6,9 @@ public class CarMain {
 
         // creamos el objeto de la clase Car (instancia de una clase)
         // en los parentesis invocaremos los metodos constructores que querramos
-        // Car car = new Car(); // clase abstarcta
+        // Car car = new Car();
 
+        // clase abstarcta
         Car car1 = new ElectricCar("red", "Toyota", "Hilux", 4, 4, 1520, 2.20, true);
 
         // usamos el metodo del objeto
