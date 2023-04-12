@@ -8,14 +8,15 @@ public abstract class Car {
     // usamos clases para representar objetos de la vida real
 
     // 1. atributos/propiedades =  caracteristicas del objeto
-    String color;
-    String manufacturer;
-    String brand;
-    int doorsNum;
-    int wheelsNum;
-    double weight;
-    double length;
-    int velocity = 0;
+    // agregegamos proteceted a las variables para que las puedan ver las clases hijas
+    protected String color;
+    protected String manufacturer;
+    protected String brand;
+    protected int doorsNum;
+    protected int wheelsNum;
+    protected double weight;
+    protected double length;
+    protected int velocity = 0;
 
     // 2. constructores = nos permite representar objetos de esta clase
     // por defecto se crea un constructor vacio sin valores en los atributos

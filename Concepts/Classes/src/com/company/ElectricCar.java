@@ -1,5 +1,6 @@
 package com.company;
 
+// heredamos de la clase Car con la palabra reservada extends
 public class ElectricCar extends Car {
 
     // agregamos atributos
