@@ -2,6 +2,10 @@ package com.company;
 
 public class CarMain {
 
+    /*
+    el modificador static nos dice que un metodo o variable pertenece a la clase,
+    este modificador permite utilizar la clase sin necesidad de crear un objeto de la clase
+    */
     public static void main(String[] args) {
 
         // creamos el objeto de la clase Car (instancia de una clase)
