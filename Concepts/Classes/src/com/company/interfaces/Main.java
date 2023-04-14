@@ -6,7 +6,7 @@ import com.company.HybridCar;
 
 /**
  * @author Facu Paez
- * En este ejemplo veremos como persistir una base de datos usando interfaces
+ * En este ejemplo veremos como crear una interface e implementarla en una clase para despues poder instanciarla
  * @version 1.0
  */
 public class Main {
