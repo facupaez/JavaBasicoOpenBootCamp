@@ -2,14 +2,25 @@ package com.company.interfaces;
 
 import com.company.Car;
 import com.company.HybridCar;
-import com.company.interfaces.CarService;
+
+import java.util.List;
 
 public class CarSportServiceImpl implements CarService {
 
-    //implementando metodo
+    //implementando metodo usando clase Car y HybridCar
+
     @Override
-    public Car addCar() {
+    public void addCar(Car car) {
         System.out.println("Creando coche sport");
-        return new HybridCar();
+    }
+
+    @Override
+    public List<Car> findAll() {
+        return null;
+    }
+
+    @Override
+    public void deleteCar(Car car) {
+
     }
 }
