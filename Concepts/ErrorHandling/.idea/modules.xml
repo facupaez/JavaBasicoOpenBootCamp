@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TryCatchFinally.iml" filepath="$PROJECT_DIR$/TryCatchFinally.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ErrorHandling.iml" filepath="$PROJECT_DIR$/ErrorHandling.iml" />
     </modules>
   </component>
 </project>

@@ -6,6 +6,7 @@ public class ThrowMain {
 
     public static void main(String[] args) {
 
+        // encerramos codigo con posible error en try catch
         try {
             leerNombres();
         } catch (NameFormatException e) {
