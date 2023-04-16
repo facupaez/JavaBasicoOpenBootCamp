@@ -25,18 +25,30 @@ public class Main {
         System.out.println(arrNotas[1]);
 
         // recorriendo array con for
+        System.out.println("Bucle for");
         for (int i = 0; i < arrNotas1.length; i++) {
             System.out.println(arrNotas1[i]);
         }
 
         // recorriendo array con foreach
+        System.out.println("Bucle foreach");
         for (int nota : arrNotas1) {
             System.out.println(nota);
         }
 
-        // 3 metodos super utilizados en arrays
+        // recorriendo array con while
+        System.out.println("Bucle while");
+        int i = 0;
+        while (i < arrNotas1.length) {
+            System.out.println(arrNotas1[i]);
+            i++;
+        }
+
+        // metodos super utilizados en arrays
         System.out.println("\n3 metodos super utilizados en arrays\n");
 
+        // ver longitud de un array
+        System.out.println("Este array tiene " + arrNotas1.length + " posiciones");
 
         // sort nos permite ordenar un array
         Arrays.sort(arrNotas1);
@@ -44,7 +56,7 @@ public class Main {
             System.out.println(nota);
         }
 
-        // devuelve la posicion del elemento que le pasemos
+        // binarySearch devuelve la posicion del elemento que le pasemos
         /*
         el array siempre debe estar ordenado de lo contarrio, el resultado sera indefinido
         si hay duplicados, no hay garantina que devuelva el resultado que buscamos
