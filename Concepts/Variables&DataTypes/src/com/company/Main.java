@@ -1,5 +1,7 @@
 package com.company;
 
+import java.math.BigDecimal;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -30,5 +32,14 @@ public class Main {
 
         //tipos envoltorio
         Integer numero = null;
+
+        // la clasae BigDecimal nos ayuda a tener alta precision en los resultados de decimales
+        // podemos usar este tipo de dato cuando trabajemos con finanzas
+        BigDecimal valorA = new BigDecimal(3.14f);
+        BigDecimal valorB = new BigDecimal(3.15f);
+
+        // debemos trabajar siempre sobre el tipo de dato BigDecimal
+        BigDecimal result = valorA.add(valorB);
+        System.out.println(result);
     }
 }
