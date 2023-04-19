@@ -14,8 +14,8 @@ public class IOMain {
     public static void main(String[] args) {
 
         try {
-            InputStream from = new FileInputStream("D:\\Programacion\\Ejercicios OpenBootcamp\\Java basico\\Concepts\\StandarIO\\from.txt");
-            PrintStream to = new PrintStream("D:\\Programacion\\Ejercicios OpenBootcamp\\Java basico\\Concepts\\StandarIO\\to.txt");
+            InputStream from = new FileInputStream("D:\\Programacion\\Ejercicios OpenBootcamp\\Java basico\\Exercises\\Topic6-7-8\\from.txt");
+            PrintStream to = new PrintStream("D:\\Programacion\\Ejercicios OpenBootcamp\\Java basico\\Exercises\\Topic6-7-8\\to.txt");
 
             try {
                 copyFile(from, to);
